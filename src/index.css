@@ -136,3 +136,39 @@ code {
   gap: 24px;
   width: 200px;
 }
+
+@media only screen and (max-width: 600px) {
+  .navbar {
+    flex-wrap: wrap;
+  }
+  .nav-link {
+    margin: auto;
+  }
+  .Icons {
+    margin: auto;
+    margin-top: 12px;
+  }
+  .Midsection {
+    height: 300px;
+    top: 100px;
+  }
+  .text-header-body {
+    font-size: 14px;
+    width: 80%;
+    left: 52%;
+  }
+  .product-list {
+    margin-top: 100px;
+  }
+  .productCards {
+    min-width: 100%;
+  }
+  .footer {
+    flex-direction: column;
+    height: 300px;
+  }
+  .list {
+    margin-top: 20px;
+    flex-direction: column;
+  }
+}
