@@ -1,0 +1,83 @@
+
+body {
+
+  background-color: #cfd9e0;
+  
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.navbar{
+  display: flex;
+  justify-content: space-between;
+}
+
+.link {
+  margin: 10px;
+}
+
+.logo-img {
+  width: 200px;
+  height: 100px;
+  
+}
+
+.logo2 {
+  width: 50px;
+  height: 50px;
+}
+
+.Midsection {
+  display:flex;
+  flex-direction: column;
+  background-size: 100%;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-image: url("https://image.freepik.com/free-photo/this-is-same-shoes_329181-1769.jpg");
+  
+}
+
+.desc{
+  display:flex;
+  flex-direction: column;
+}
+
+
+.text-header-body{
+  position: absolute;
+  width: 500px;
+  font-size: 1.3rem;
+  /* color: rgb(75, 67, 67) */
+  
+}
+
+
+.cards{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.productCards{
+  box-shadow: 0px 5px 20px 0px gray;
+  width: 23%;
+  border-radius:7px;
+  margin: 7px;
+  
+  /* height: 400px; */
+}
+
+.image{
+  width: 100%;
+  height: 400px;
+}
+
+.footer{
+  display: flex;
+  justify-content: space-between;
+
+  
+}
