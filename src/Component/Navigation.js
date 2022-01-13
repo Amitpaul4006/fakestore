@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import Logo from "./ImgFolder/shoplogo-removebg-preview.png";
-import Search from './ImgFolder/search-removebg-preview.png';
-import People from './ImgFolder/people-11-removebg-preview.png';
+import Search from "./ImgFolder/search-removebg-preview.png";
+import People from "./ImgFolder/people-11-removebg-preview.png";
 import Cart from "./ImgFolder/cart-19-removebg-preview.png";
 import { Link } from "react-router-dom";
 
@@ -27,9 +27,9 @@ export default class Navigation extends Component {
             <Link className="link" to="">
               BLOG
             </Link>
-            <Link className="link" to="">
+            {/* <Link className="link" to="">
               PAGES
-            </Link>
+            </Link> */}
           </nav>
         </div>
 

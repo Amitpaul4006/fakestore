@@ -39,7 +39,7 @@ export default class Product extends Component {
   render() {
     console.log(this.state.products);
     return (
-      <div>
+      <div className="product-list">
         {this.state.error === false ? (
           <Loader />
         ) : (
@@ -55,8 +55,8 @@ export default class Product extends Component {
                       src={elem.image}
                       alt="product image"
                     />
-                    <p>{elem.title}</p>
-                    <p>{elem.price}</p>
+                    <p className="product-title">{elem.title}</p>
+                    <p className="price"> ₹{elem.price}</p>
                   </div>
                 ))}
               </div>
