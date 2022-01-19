@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import Error from "./Error";
 import ProductNotFound from "./ProductNotFound";
 import Loader from "./Loader";
+import Addproduct from './addproduct'
 
 export default class Product extends Component {
   constructor(props) {
@@ -32,9 +33,11 @@ export default class Product extends Component {
     }
   };
 
+
   componentDidMount() {
     this.fetchDataProducts();
   }
+  
 
   render() {
     console.log(this.state.products);
@@ -59,6 +62,7 @@ export default class Product extends Component {
                     <p className="price"> ₹{elem.price}</p>
                   </div>
                 ))}
+                <Addproduct/>
               </div>
             )}
           </div>
